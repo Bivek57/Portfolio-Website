@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact </title>
+    <link rel="stylesheet" href="../CSS/style.css"><!--Linking with external CSS-->
+    <style>
+        body{
+            background-image: url(../images/background.jpg);
+            min-height: 100%;
+        }
+    </style>
+    <script src="../JavaScript/javascript.js"> /*Using external JavaScript*/</script>
+</head>
+<body>
+    <nav><!--Creating navigation bar to navigate from one page to another-->
+        <table style="width:40% ; height: 20%; margin: auto; float: right; padding: 30px; background-color:#242322; color: white;">
+            <tr style="height: 35px; width: 20px;">
+                <th class="menu">
+                    <a href="home.html">Home</a>
+                </th>
+                <th class="menu">
+                    <a href="CV.html">CV</a>
+                </th>
+                <th class="menu">
+                    <a href="Blog.html">Blog</a>
+                </th>
+                <th class="current">
+                    <a href="Contact.html">Contact</a>
+                </th>
+                <th class="menu">
+                    <a href="Research.html">Research</a>
+                </th>
+            </tr>
+        </table>
+    </nav>
+    <header> 
+        <h1 style="background-color:brown; margin: auto; padding: 10px; text-align: left;color: white; font-family:Arial, Helvetica, sans-serif;"> <a href="home.html"><img src="../images/logo.jpg" alt="logo of website" width="40px" height="40px"></a>
+            Tech Bivek </style> 
+
+        </h1>
+    </header><br><br>
+    <div class="container">
+        <form name="Contact" onsubmit="validateform()"><!--Calling function to validate form-->
+            <h1>
+                Have you got some Questions? 
+            </h1>
+            <h4>I am here to help and answer any questions you might have. <br>
+                Please fill the following contact form.
+            </h4>
+            
+            
+            <img src="../images/contact.png" alt="contact" style="float:right; padding: 30px;"> 
+            <p>First Name <br>  <input type="text" name="firstname"></p> 
+            <p>Last Name  <br>  <input type="text" name="lastname"></p>
+            <p> Email-ID   <br>   <input type="text" name="emailID"></p>
+            <p>Gender <input type="radio" value="Male" name="gender" checked>Male
+                      <input type="radio" value="Female" name="gender">Female
+            </p>
+            <p>
+                Your Feedbacks.<br>
+                <textarea rows="10" cols="30" name="feedback" placeholder="Enter your message"></textarea>
+            </p>
+            <input type="submit" value="send">
+        </form>
+    </div>
+
+    <div class="footer"><!--footer to mention copyright of website and social media links of the owner-->
+        <p>
+            Copyright &copy;2020 Bivek Pokhrel <br><br> Find me on:
+            <a href="https://www.facebook.com/matamanche.khatra"><img src="../images/download.png" alt="icon of facebook" width="30px" height="27px"></a>
+            <a href="https://www.instagram.com/pokhrel_bivek/"><img src="../images/aa.png" alt="icon of instagram" width="30px" height="27px"></a> 
+
+        </p> 
+
+    </div>
+        
+</body>
+</html>
+

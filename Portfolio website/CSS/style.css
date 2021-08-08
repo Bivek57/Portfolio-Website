@@ -1,0 +1,72 @@
+body{
+    top: 0;
+    height: 100%;
+}
+.menu{
+    background-color:white;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: black;
+    font-family:'Times New Roman', Times, serif;
+    /*Styling navigation links*/
+}
+.current{
+    color: white;
+    background-color:brown;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    /*Styling navigation link for the active page*/
+}
+
+.footer{
+    width: 100%;
+    background-color:#322f33; opacity:1;
+    color: white;
+    text-align: center;
+    font-size: small;
+    left: 0;
+    height:90px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a:any-link{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color:#464a46;
+/*Creating hoover effect in navigation links*/
+}
+
+.container{      
+    min-height: 100%;
+    background-color: white;
+    width: 80%;
+    text-align:left;
+    margin: auto;
+    padding: 10px;
+    /*Styling class container of contact webpage*/
+}
+.container2{      
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    width: 80%;
+    margin:auto;
+    padding:10px
+    /*Styling class container2 of blog webpage*/
+}
+.container3{    
+    background-image: url(../images/oo.jpg);
+    padding:2px;
+    height:100%;
+    width: 100%;
+    margin: auto;
+    /*Styling class container3 of research webpage*/
+}
+
+

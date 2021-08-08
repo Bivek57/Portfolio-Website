@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Home
+    </title>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="../CSS/style.css"><!--linking with external CSS-->
+    <style>
+        body{
+            background-image:url(../images/Bivek.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            /*using internal CSS to design body*/
+        }
+        .home{
+            min-height: 100%;
+        }
+    </style>
+
+    <script src="../JavaScript/javascript.js">/*Using external JavaScript*/  </script>
+    <script>
+         alert( "Welcome to my site")
+    </script>
+</head>
+<body>
+    <nav> <!--Creating navigation bar to navigate from one page to another-->
+        <table style="width:40% ; height: 20%; float: right; padding: 30px; background-color:#242322; color: white;" >
+            <tr style="height: 35px; width: 30px;">
+                <th class="current">
+                    <a href="home.html">Home</a>
+                </th>
+                <th class="menu">
+                    <a href="CV.html">CV</a>
+                </th>
+                <th class="menu">
+                    <a href="Blog.html">Blog</a>
+                </th>
+                <th class="menu">
+                    <a href="Contact.html">Contact</a>
+                </th>
+                    <th class="menu">
+                    <a href="Research.html">Research</a> 
+                </th>
+            </tr>
+        </table>
+    </nav>
+    <header><!--header of website to contain logo and name of the website-->
+            <h1 style="background-color:brown; margin: auto; padding: 10px; text-align: left;color: white; font-family:Arial, Helvetica, sans-serif;"> <a href="home.html"><img src="../images/logo.jpg" alt="logo of website" width="40px" height="40px"></a>
+            Tech Bivek</style>
+
+            </h1>
+    </header>
+    <div class="home">
+        <p style="color: white; font-size: 80px;">
+            Hello, <br>Welcome to my Portfolio
+            <br><br>
+        </p>
+        <h4 id="home" style="color:white; font-family:cursive; font-size: large; object-position:bottom; background-color:lightslategray; opacity: 80%; padding:5px; text-align: center;">
+            "Any sufficiently advanced technology is indistinguishable from magic" -Arthur C. Clarke</h4>
+            <button onclick="change()">Change Quote </button>
+    
+    </div> <br>
+    <div class="footer"><!--creating footer to mention copyright of the website and social media links of the owner-->
+        <p>
+            Copyright &copy;2020 Bivek Pokhrel  <br><br> Find me on:
+            <a href="https://www.facebook.com/matamanche.khatra"><img src="../images/download.png" alt="icon of facebook" width="30px" height="27px"></a>
+            <a href="https://www.instagram.com/pokhrel_bivek/"><img src="../images/aa.png" alt="icon of instagram" width="30px" height="27px"></a>
+        </p> 
+    </div>
+</body>
+</html>

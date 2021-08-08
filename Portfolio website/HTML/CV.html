@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        CV
+    </title>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="../CSS/style.css"><!--Linking with external CSS-->
+    <style>
+        body{
+            background-image:url(../images/hey.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 3px;
+            /*Styling body with the help of internal CSS*/
+        }
+        .row{
+            display: flex;
+        }
+        .leftcolumn{
+            flex: 40%;
+            margin: 5px;
+        }
+        .rightcolumn{
+            flex: 60%;
+            margin: 5px;
+        }
+        .card{
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            margin: 5px;
+            background-image: url(../images/oo.jpg); /*Styling flexbox of CSS*/
+        }
+    
+    </style>
+</head>
+<body>
+    <nav><!--creating navigation bar to navigate from one page to another-->
+        <table style="width:40% ; height: 20%; margin: auto; float: right; padding: 30px; background-color:#242322; color: white;">
+            <tr style="height: 35px; width: 20px;">
+                <th class="menu">
+                    <a href="home.html">Home</a>
+                </th>
+                <th class="current">
+                    <a href="CV.html">CV</a>
+                </th>
+                <th class="menu">
+                    <a href="Blog.html">Blog</a>
+                </th>
+                <th class="menu">
+                    <a href="Contact.html">Contact</a>
+                </th>
+                    <th class="menu">
+                    <a href="Research.html">Research</a>
+                </th>
+            </tr>
+        </table>
+    </nav>
+    <header> <!--Header of website to contain name and logo of website-->
+            <h1 style="background-color:brown; margin: auto; padding: 10px; text-align: left;color: white; font-family:Arial, Helvetica, sans-serif;"> <a href="home.html"><img src="../images/logo.jpg" alt="logo of website" width="40px" height="40px"></a><!--Inorder to redirect into main home page of the website-->
+                Tech Bivek 
+
+            </h1> <br><br>
+    </header>
+    <div class="row"><!--Creating flexbox layout of CSS-->
+        <div class="leftcolumn">
+            <div class="card">
+                <img src="../images/aa.jpg" alt="photo of the person" width="250px" height="250px" style="float: right;">
+                <h1>Hi , <br> I am <br> Bivek <br> Pokhrel</h1><br><br><br>
+            </div>
+            <div class="card">
+                    <h2>About me</h2>
+                    <p>
+                        Name:Bivek Pokhrel <br>
+                        Nationality: Nepali <br>
+                        Permanent Adress:Parsyang,Pokhara <br>
+                        Temporary Address:Kirtipur,Kathmandu <br>
+                        Date of Birth:16th April, 2000. <br>
+                        E-mail:bivekpokhrel19@gmail.com <br>
+                        Phone no: +977 9845266900
+                </p>
+
+            </div>
+
+        </div>
+            <div class="rightcolumn">
+            <div class="card">
+                <h2>Academic Qualifications</h2>
+                <p>
+                    2017: Passed SLC(School Leaving Certificate) with A+ grade from Gyankunj High School ,Kathmandu. <br>
+                    2019: Passed NEB +2 board examination with A grade from Uniglobe College ,Kathmandu. <br>
+                    2020: Studying Bsc.Hons Computing at Islington College, Kathmandu.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Skills</h2>
+                <p>Webpage Designer(HTML,CSS,Javascript) <br>
+                    Software Developer (Java) <br>
+                    Handling Database(mySQL)
+                </p>
+                <h2>Working Experience</h2>
+                <p> Worked at Uniglobe College to fill online forms for 3 months.</p>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="footer"><!--Footer to mention copyright of website and social media links of the owner-->
+        <p>
+            Copyright &copy;2020 Bivek Pokhrel <br><br> Find me on:
+            <a href="https://www.facebook.com/matamanche.khatra"><img src="../images/download.png" alt="icon of facebook" width="30px" height="27px"></a>
+            <a href="https://www.instagram.com/pokhrel_bivek/"><img src="../images/aa.png" alt="icon of instagram" width="30px" height="27px"></a>
+
+        </p> 
+    </div>
+</body>
+</html>
+
